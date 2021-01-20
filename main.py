@@ -62,6 +62,8 @@ for cls in classes:
     if not os.path.exists(savepath + "laplacian/"):  # 如果不存在路径，则创建这个路径，关键函数就在这两行，其他可以改变
         os.makedirs(savepath + "laplacian/")
     cv2.imwrite(savepath + "laplacian/" + cls, laplacian_edge)
+
+    #显示处理进度
     i = i+1
     sys.stdout.write('\r%s%%' % (i/total*100))
     sys.stdout.flush()
