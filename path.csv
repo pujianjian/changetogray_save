@@ -1,0 +1,11 @@
+readpath:/home/lj/PycharmProjects/changetogray/picture/
+savepath:/home/lj/PycharmProjects/changetogray/result/
+××××sober××××
+#算子的大小
+dx:1
+dy:1
+*****canny××××
+max:150
+min:50
+*****Laplacian××××
+ksize:3
